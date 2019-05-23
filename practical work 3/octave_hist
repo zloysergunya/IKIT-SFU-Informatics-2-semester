@@ -1,0 +1,27 @@
+x=-4:0.1:4;
+y=-4:0.1:4;
+[x,y]=meshgrid(x,y);
+z = cos(var*x)*(x^3)+(y^3);
+mesh(x,y,z);
+xlabel('Ox') 
+ylabel('Oy') 
+zlabel('Oz')
+x=-4:0.1:4;
+y=-4:0.1:4;
+[x,y]=meshgrid(x,y);
+z = cos(var*x)*(x*x*x)+(y*y*y);
+mesh(x,y,z);
+xlabel('Ox') 
+ylabel('Oy') 
+zlabel('Oz')
+var=54
+x=-4:0.1:4;
+y=-4:0.1:4;
+[x,y]=meshgrid(x,y);
+z = cos(var*x)*(x^3)+(y^3);
+mesh(x,y,z);
+xlabel('Ox') 
+ylabel('Oy') 
+zlabel('Oz')
+main
+# Octave 5.1.0, Wed Apr 03 11:50:20 2019 GMT <unknown@DESKTOP-57GRNS8>
